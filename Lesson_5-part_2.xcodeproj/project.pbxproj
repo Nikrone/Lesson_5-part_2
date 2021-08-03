@@ -13,6 +13,7 @@
 		71208E2326B9CD9A00403EFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71208E2126B9CD9A00403EFA /* Main.storyboard */; };
 		71208E2526B9CD9C00403EFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71208E2426B9CD9C00403EFA /* Assets.xcassets */; };
 		71208E2826B9CD9C00403EFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71208E2626B9CD9C00403EFA /* LaunchScreen.storyboard */; };
+		71208E3126B9D5A000403EFA /* Hospital.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71208E3026B9D5A000403EFA /* Hospital.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		71208E2426B9CD9C00403EFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71208E2726B9CD9C00403EFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71208E2926B9CD9C00403EFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71208E3026B9D5A000403EFA /* Hospital.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hospital.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +60,30 @@
 			children = (
 				71208E1B26B9CD9A00403EFA /* AppDelegate.swift */,
 				71208E1D26B9CD9A00403EFA /* SceneDelegate.swift */,
-				71208E1F26B9CD9A00403EFA /* ViewController.swift */,
+				71208E3226B9D5DA00403EFA /* Controller */,
 				71208E2126B9CD9A00403EFA /* Main.storyboard */,
+				71208E2F26B9D4CB00403EFA /* Model (хранится логика приложения) */,
 				71208E2426B9CD9C00403EFA /* Assets.xcassets */,
 				71208E2626B9CD9C00403EFA /* LaunchScreen.storyboard */,
 				71208E2926B9CD9C00403EFA /* Info.plist */,
 			);
 			path = "Lesson_5-part_2";
+			sourceTree = "<group>";
+		};
+		71208E2F26B9D4CB00403EFA /* Model (хранится логика приложения) */ = {
+			isa = PBXGroup;
+			children = (
+				71208E3026B9D5A000403EFA /* Hospital.swift */,
+			);
+			path = "Model (хранится логика приложения)";
+			sourceTree = "<group>";
+		};
+		71208E3226B9D5DA00403EFA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				71208E1F26B9CD9A00403EFA /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				71208E2026B9CD9A00403EFA /* ViewController.swift in Sources */,
+				71208E3126B9D5A000403EFA /* Hospital.swift in Sources */,
 				71208E1C26B9CD9A00403EFA /* AppDelegate.swift in Sources */,
 				71208E1E26B9CD9A00403EFA /* SceneDelegate.swift in Sources */,
 			);
